@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
+     background: linear-gradient(45deg, #161414, #031b3c);
+     margin-top: 50px;
+}
+
+.green
+{
+    color: green;
+}
+
+#eq
+{
+    background-color: orange;
+}
+.white
+{
+    color: white;
+}
+
+.container{
+    /* background-color: red; */
+    /* width: 80%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* margin: 20px; */
+    /* padding: 10px; */
+    flex-direction: column;
+    /* max-width:40vw; */
+ 
+    width: 300px;
+ 
+    margin: 10px 40vw;
+    border: 1px solid #717377;
+    border-radius: 16px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+
+.row input{
+    /* margin: 10px; */
+    /* padding: 10px 38px; */
+    padding: 24px; 
+    /* height: 30px;*/
+    width: 300px; 
+    /* border: .5px solid black; */
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    /* background-color: rgb(242, 229, 229); */
+    /* background-color: transparent; */
+    background: transparent;
+    /* color: white; */
+    color: #ffffff;
+    text-align: right;
+    
+    /* box-shadow: 0px 3px 15px rgba(118, 123, 132, 0.5); */
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.row input::placeholder{
+    color: white;
+}
+
+.btn{
+    margin:5px 4px;
+    padding: 20px;
+    border: .5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(242, 229, 229); */
+    background: transparent;
+    /* color: white; */
+    /* box-shadow: 5px 5px 2px rgba(243, 240, 240, 0.882) ; */
+    /* box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); */
+
+    font-size: large;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
